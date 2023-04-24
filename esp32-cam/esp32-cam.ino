@@ -19,8 +19,8 @@
 #define ESP32CAM_LED_FLASH 4    // BUILTIN FLASH Internally Connected to GPIO 4
 
 // Replace the next variables with your SSID/Password combination
-const char *ssid = "AirPennNet-Device";
-const char *password = "penn1740wifi";
+const char *ssid = "";
+const char *password = "";
 
 // MQTT
 // Add your MQTT Broker IP address, example:
@@ -28,12 +28,12 @@ const char *password = "penn1740wifi";
 // const char* mqtt_server = "mqtt.eclipse.org";
 const char *mqtt_server = "io.adafruit.com";
 
-const char *mqtt_clientid = "kop";
-const char *mqtt_username = "kop"; // Adafruit Username
-const char *mqtt_password = "aio_Lerd351MxVqlDRCW7DM86PkczpZk"; // Adafruit AIO Key
+const char *mqtt_clientid = "";
+const char *mqtt_username = ""; // Adafruit Username
+const char *mqtt_password = ""; // Adafruit AIO Key
 
 // MQTT Publish Topics (Replace "username" with adafruit username)
-const char *mqtt_publish_topic_camera = "kop/feeds/camera";
+const char *mqtt_publish_topic_camera = "USERS/feeds/camera";
 // MQTT Subscribe Topics (Replace "username" with adafruit username)
 // const char *mqtt_subscribe_topic_fanstate = "username/feeds/fanstate";
 // const char *mqtt_subscribe_topic_dehumidifier = "username/feeds/dehumidifier";
